@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Devbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- Modal Popup -->
+      <div id="modal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content">
+          <div class="header">
+            <div>Confirm Deletion</div>
+            <button id="close-btn">x</button>
+          </div>
+
+          <div class="body">
+            <p>
+              Are you sure, you want to delete this? This action can't be undone
+            </p>
+          </div>
+
+          <div class="footer">
+            <button id="cancel-btn">Cancel</button>
+            <button id="confirm-btn">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trigger Button -->
+      <button id="open-modal-btn">Open Modal</button>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
